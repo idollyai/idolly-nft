@@ -18,7 +18,7 @@
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-org/idolly-nft.git  
+git clone https://github.com/idollyai/idolly-nft
 cd idolly-nft
 
 ### 2. Install Dependencies
