@@ -1,0 +1,1 @@
+# idolly-nft
