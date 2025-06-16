@@ -29,33 +29,41 @@
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/idollyai/idolly-nft
 cd idolly-nft
+```
 
 ### 2. Install Dependencies
 
+```bash
 npm install
+```
 
 ### 3. Environment Setup
 
 Create a `.env` file:
 
-PRIVATE_KEY=your_private_key  
+```env
+PRIVATE_KEY=your_private_key
 STORY_RPC=https://aeneid.storyrpc.io
+```
 
 ### 4. Hardhat Config (`hardhat.config.js`)
 
+```js
 require("dotenv").config();
 
-module.exports = {  
-  solidity: "0.8.17",  
-  networks: {  
-    storyProtocol: {  
-      url: process.env.STORY_RPC,  
-      accounts: [process.env.PRIVATE_KEY],  
-    },  
-  },  
+module.exports = {
+  solidity: "0.8.17",
+  networks: {
+    storyProtocol: {
+      url: process.env.STORY_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+  },
 };
+```
 
 ### 5. Compile and Deploy
 
