@@ -14,6 +14,17 @@
 
 ---
 
+## 🔗 Live Deployment (Story Mainnet)
+
+| Item                         | Value                                                                                                     |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Contract Address**         | `0x19b6F31861892a38dC92f91065e5caBa1B0C6F5c`                                                              |
+| **Sample NFT — Image (#1)**  | [View on StoryScan](https://www.storyscan.io/token/0x19b6F31861892a38dC92f91065e5caBa1B0C6F5c/instance/1) |
+| **Sample NFT — Styler (#2)** | [View on StoryScan](https://www.storyscan.io/token/0x19b6F31861892a38dC92f91065e5caBa1B0C6F5c/instance/2) |
+
+---
+
+
 ## 🛠️ Deployment (Using Hardhat)
 
 ### 1. Clone the Repository
